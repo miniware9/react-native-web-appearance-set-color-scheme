@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "react-native-web-appearance-set-color-scheme",
+    "slug": "react-native-web-appearance-set-color-scheme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "repro"
+  }
+}
